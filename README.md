@@ -3,7 +3,7 @@
 This project segments mall customers into meaningful groups using K-Means clustering on Age, Annual Income (k$), and Spending Score (1–100). The goal is to enable targeted marketing (e.g., premium/high-spend vs. affluent/low-spend) with a simple, interpretable unsupervised workflow. 
 
 ## Dataset
-- Source: Mall_Customers.csv (200 rows, 5 columns). Typical fields: CustomerID, Gender, Age, Annual Income (k$), Spending Score (1–100). Include the CSV or reference the Kaggle page in your repo notes. 
+- Source: Mall_Customers.csv (200 rows, 5 columns). Typical fields: CustomerID, Gender, Age, Annual Income (k$), Spending Score (1–100). 
 
 ## Methods
 - Standardize numeric features, sweep k=2..8, and select k using elbow (inertia) and silhouette; fit final K-Means and assign clusters. 
